@@ -282,7 +282,7 @@ elif section == "Sentiment Analysis":
     fig.update_traces(textposition="outside")
     fig.update_layout(xaxis_title="Sentiment Label", yaxis_title="Percentage", yaxis_tickformat=".0%", showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
-    st.write("Half of all comments having positive sentiment indicates that the community tone remains stable.")
+    st.write("Half of all comments having positive sentiment indicates that the community tone remains stable. Only a smaller share of users express dissatisfaction or concerns.")
 
     st.divider()
     st.subheader("Comment Sentiment Over Time")
